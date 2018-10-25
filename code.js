@@ -28,6 +28,6 @@ function parseFunction(funq,funccallstring) {// i.e print(), "print(z,v,k)"
   return parts
 }
 function display(arguements){
-  "function".constructor(console.log(arguements));
+  console.log(arguements);
 }
 console.log(parseFunction(display,"print('Epic','Man')"))
